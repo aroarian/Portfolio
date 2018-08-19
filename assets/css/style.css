@@ -37,10 +37,20 @@ nav img{
 }
 
 .cards{
-  width: 70%;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
+}
+
+.cardCont{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rightCard{
+  margin-right: 0;
 }
 
 
@@ -85,7 +95,7 @@ nav img{
   width: 250px;
   border: #9b9eaf solid 4px;
   float: left;
-  margin-right: 15px;
+  margin-right: 20px;
   
 }
 
