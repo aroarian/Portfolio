@@ -1,3 +1,14 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background: rgb(37, 37, 58);
 }
@@ -13,8 +24,7 @@ body {
 }
 
 #topContent{
-  
-  position: relative;
+    position: relative;
     min-height: 500px;
     width: 100%;
 }
@@ -37,17 +47,59 @@ nav img{
 }
 
 .cards{
-  width: auto;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
 }
 
-.cardCont{
-  width: 70%;
+.cardContainer{
+  margin-top: 100px;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #f2f4fc;
+  outline: white solid 8px;
+  border: #9b9eaf solid 4px;
+  height: 450px;
 }
+
+.expContainer{
+  margin-top: 75px;
+  margin-bottom: 50px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f4fc;
+  outline: white solid 8px;
+  border: #9b9eaf solid 4px;
+  height: 450px;
+}
+
+.expContainer h4{
+  margin-left: 30px;
+ }
+
+ .contactContainer{
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f4fc;
+  outline: white solid 8px;
+  border: #9b9eaf solid 4px;
+  height: 450px;
+}
+
+.contactContainer h4{
+  margin-left: 30px;
+ }
+
+
+.cardContainer h4{
+  margin-left: 30px;
+ }
 
 #rightCard{
   margin-right: 0;
@@ -72,15 +124,23 @@ nav img{
   margin-top: 125px;
   height: 270px;
   padding: 10px;
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
   
 }
 
 .bio{
-  
-  float: right;
+  margin-top: 5px;
+  font-family: 'Sarala', sans-serif;
+  font-size: 16px;
   border: white solid 8px;
-  margin-top: 75px;
   background-color: white;
+  font-weight: 100;
+}
+
+.bioContainer{
+  float: right;
   width: 65%;
 }
 
@@ -91,11 +151,11 @@ nav img{
 }
 
 .card{
-  margin-top: 70px;
+  margin-top: 20px;
   width: 250px;
   border: #9b9eaf solid 4px;
   float: left;
-  margin-right: 20px;
+  margin-right: 21.4px;
   
 }
 
@@ -133,10 +193,11 @@ nav img{
 .slantedDiv2 {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 150px;
   background-color: white;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 .slantedDiv2:after {
   position: absolute;
@@ -149,6 +210,19 @@ nav img{
   transform-origin: top left;
   transform: skewY(-5deg);
   z-index: -1;
+}
+
+.footer{
+  width: 100%;
+  background-color: white;
+  height: 300px;
+ 
+}
+
+.collapsible{
+  margin-left:auto;
+  margin-right: auto;
+  width:95%;
 }
 
 .trees{
